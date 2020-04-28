@@ -1,0 +1,27 @@
+.container {
+  background-image: url("/assets/img/1.jpg");
+  position: relative;
+  width: 80%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: Arial;
+}
+.text-block {
+  /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  background-color: lightgray;
+  width: -webkit-fill-available; /* Full width */
+  padding: 20px; /* Some padding */
+  float: left;
+  display: block;
+  font-weight: normal;
+  font-size: large;
+  font-family: cursive;
+  font-style: italic;
+  justify-content: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
