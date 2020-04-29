@@ -1,4 +1,9 @@
-const app = express();
-app.get("*", (req, res) => {
-  res.sendFile(`./zero/dist/index.html`); // load the single view file (angular will handle the page changes on the front-end)
+constexpress = require("express");
+constapp = expres();
+constpath = require("path");
+app.us(express.static(__dirname + "/dist"));
+app.listen(process.env.PORT || 8080);
+//PathLocationStradegy
+app.get("/", function (req, res) {
+  res.sendFile(path.join(__dirname + "/dist/index.html"));
 });
