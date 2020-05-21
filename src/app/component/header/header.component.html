@@ -1,13 +1,38 @@
-<div class="header">
-  <div class="container">
-    <a routerLink="/home" class="logo">Alpana.</a>
-    <div class="header-right">
-      <a routerLink="/home">Home</a>
-      <a routerLink="/portfolio">Portfolio</a>
-      <a routerLink="/about">About</a>
-      <a routerLink="/gallery">Gallery</a>
-      <!-- <a routerLink="/blog">Blog</a> -->
-      <a routerLink="/contact">Contact</a>
-    </div>
+<!--Navbar -->
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark default-col">
+  <a class="navbar-brand" routerLink="/home">Alpana.</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent-333"
+    aria-controls="navbarSupportedContent-333"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/home"
+          >Home
+          <!-- <span class="sr-only">(current)</span> -->
+        </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/about">About</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/gallery">Gallery</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/contact">Contact</a>
+      </li>
+    </ul>
   </div>
-</div>
+</nav>
+<!--/.Navbar -->
