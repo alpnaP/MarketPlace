@@ -7,9 +7,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { HomeComponent } from './component/home/home.component';
 import { AboutComponent } from './component/about/about.component';
 import { GalleryComponent } from './component/gallery/gallery.component';
-import { BlogComponent } from './component/blog/blog.component';
 import { ContactComponent } from './component/contact/contact.component';
-import { PortfolioComponent } from './component/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +17,7 @@ import { PortfolioComponent } from './component/portfolio/portfolio.component';
     HomeComponent,
     AboutComponent,
     GalleryComponent,
-    BlogComponent,
     ContactComponent,
-    PortfolioComponent
   ],
   imports: [
     BrowserModule,
