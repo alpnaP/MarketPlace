@@ -180,8 +180,8 @@
   width: 34px;
   font-size: 14px;
 }
-.social-icons a.facebook:hover {
-  background-color: #3b5998;
+.social-icons a.github:hover {
+  background-color: #4f5155;
 }
 .social-icons a.twitter:hover {
   background-color: #00aced;
@@ -191,6 +191,9 @@
 }
 .social-icons a.dribbble:hover {
   background-color: #ea4c89;
+}
+.social-icons a.youtube:hover {
+  background-color: #f02424;
 }
 @media (max-width: 767px) {
   .social-icons li.title {
